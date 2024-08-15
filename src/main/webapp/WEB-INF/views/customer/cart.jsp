@@ -23,7 +23,8 @@
                             name="quantity"
                             value="${item.quantity}"
                             onchange="this.form.submit()"
-                            style="width:50px;">
+                            style="width:50px;"
+                        />
                     </td>
                     <td>${item.price * item.quantity}</td>
                     <td>

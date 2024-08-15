@@ -7,4 +7,5 @@ import org.springframework.data.jpa.repository.Query;
 public interface AccountRepo extends JpaRepository<Account, String> {
     @Query("select ac from Account ac where ac.username = :username and ac.password = :password")
             Account getAccount(String username, String password);
+// phuong ngu
 }
